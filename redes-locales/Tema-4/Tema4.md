@@ -3,12 +3,12 @@
 ---
 
 ## Índice
-1. **Cables UTP**
-2. **Métodos de transmisión**
-3. **Fibra óptica**
-4. **Estándares Ethernet**
-5. **Cableado estructurado**
-6. **Ejercicios prácticos**
+1. [Cables UTP](#cables-utp)
+2. [Métodos de transmisión](#métodos-de-transmisión)
+3. [Fibra óptica]()
+4. [Estándares Ethernet]()
+5. [Cableado estructurado]()
+6. [Ejercicios prácticos]()
 
 ---
 
@@ -44,7 +44,7 @@ Se debe alterar el orden para que un extremo de transferencia coincida con el de
 
 ---
 
-## Medios de transmisión
+## Métodos de transmisión
 ### Bandas de transmisión
 
 - **Banda base** -> Solo se transmite una única comunicación, la señal es enviada tal cual por el medio de transmisión.
