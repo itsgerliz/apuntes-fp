@@ -65,6 +65,59 @@ Se debe alterar el orden para que un extremo de transferencia coincida con el de
 - **Señal analógica** -> Valores continuos, por ejemplo: 1V, 1.5V, 2V, 3V, 3.2V, 5V...
 - **Señal digital** -> Valores discretos, por ejemplo: 0V o 5V (0 o 1), no hay un punto medio.
 
+### Medios: guiados vs no guiados
+
+- **Guiados** -> El medio de transmisión físico es un cable, tipos:
+	- **Par paralelo**
+		- Dos hilos de cobre
+		- Comunicación semiduplex (comunicación bidireccional, no simultánea)
+		- Poca protección frente a interferencias
+		- Conector RJ11
+	- **Par trenzado**
+		- Un par trenzado son dos hilos de cobre trenzados, el trenzado sirve para reducir las interferencias entre los hilos
+		- Cable más resistente
+		- Cables con cuatro pares (ocho hilos)
+		- Usado en redes de área local
+		- Conector RJ45
+		- Distintas categorías (CAT-(5,6,7...))
+		- Más simple y económico de todos los medios de transmisión
+		- Se necesitan repetidores de señal al sobrepasar ciertas longitues de cable
+		- Máximo 100 metros **sin** repetidores
+		- **UTP (Unshielded Twisted Pair)(Par trenzado sin apantallar)**
+		- **FTP (Foiled-Screen TP)(Par trenzado apantallado)**
+		- **STP (Shielded TP)(Par trenzado blindado)**
+	- **Cable coaxial**
+		- Más inmunes al ruido que el par trenzado
+		- Mayores distancias entre equipos que el par trenzado (atenuación menor por distancia recorrida)
+		- Cable usado para conectar antenas
+		- Dos tipos:
+			- Fino
+				- RG58 uso 10BASE2
+				- Se usaba para montar redes locales en bus principalmente
+				- Conector BNC
+			- Grueso
+				- RG11 uso 10BASE5
+				- Se emplea para cableados verticales de edificios (backbone)
+				- Presenta gran inmunidad al ruido
+				- Difícil instalación
+				- Distancia mayor que el par trenzado (500 metros)
+	- **Fibra óptica**
+		- Hilo muy fino de material transparente
+		- Vidrio o materiales plásticos
+		- Se envían pulsos de luz
+		- Compuesto por:
+			- Núcleo
+			- Revestimiento
+		- Haz de luz confinado, rebota a lo largo de las paredes del núcleo
+		- Cara
+		- Difícil de instalar
+		- Peligros (pinchazos, vista...)
+		- Prácticamente inmune a las interferencias electromagnéticas
+		- Velocidades de hasta 20Gb/s en uso real
+		- Atenuación pequeña, distancias de hasta 60 km
+		- Varios tipos de conectores
+		![ConectoresFibra](./conectores-fibra.png)
+
 ### Recursos
 - [Presentacion](./medios-de-transmision.odp)
 - [PDF](./medios-de-transmision.pdf)
