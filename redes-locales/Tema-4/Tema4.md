@@ -62,6 +62,8 @@ Se debe alterar el orden para que un extremo de transferencia coincida con el de
 
 ### Transmisiones: Analógicas vs Digitales
 
+- **Señal analógica** -> Valores continuos, por ejemplo: 1V, 1.5V, 2V, 3V, 3.2V, 5V...
+- **Señal digital** -> Valores discretos, por ejemplo: 0V o 5V (0 o 1), no hay un punto medio.
 
 ### Recursos
 - [Presentacion](./medios-de-transmision.odp)
