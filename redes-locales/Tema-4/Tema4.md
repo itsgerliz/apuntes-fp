@@ -5,7 +5,7 @@
 ## Índice
 1. [Cables UTP](#cables-utp)
 2. [Métodos de transmisión](#métodos-de-transmisión)
-3. [Fibra óptica]()
+3. [Fibra óptica](#fibra-óptica)
 4. [Estándares Ethernet]()
 5. [Cableado estructurado]()
 6. [Ejercicios prácticos]()
@@ -64,6 +64,8 @@ Se debe alterar el orden para que un extremo de transferencia coincida con el de
 
 - **Señal analógica** -> Valores continuos, por ejemplo: 1V, 1.5V, 2V, 3V, 3.2V, 5V...
 - **Señal digital** -> Valores discretos, por ejemplo: 0V o 5V (0 o 1), no hay un punto medio.
+
+![DigitalAnalogica](./digital-analogica.webp)
 
 ### Medios: guiados vs no guiados
 
@@ -197,3 +199,9 @@ Se debe alterar el orden para que un extremo de transferencia coincida con el de
 ---
 
 ## Fibra óptica
+
+### Recursos
+- [MontajeConectorLC](https://www.youtube.com/watch?v=_loIfxQ-nYc)
+- [EmpalmeFusion](https://www.youtube.com/watch?v=qiKXaEcyHQE)
+- [EmpalmeMecánico](https://www.youtube.com/watch?v=yovNGSz3uKc)
+- [ConectoresYCables](https://www.youtube.com/watch?v=YLH81B_f_o8)
