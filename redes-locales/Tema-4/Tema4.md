@@ -108,6 +108,9 @@ Se debe alterar el orden para que un extremo de transferencia coincida con el de
 		- Compuesto por:
 			- Núcleo
 			- Revestimiento
+
+		![ComposiciónFibra](./composicion-manguera-fibra.jpg)
+
 		- Haz de luz confinado, rebota a lo largo de las paredes del núcleo
 		- Cara
 		- Difícil de instalar
@@ -116,7 +119,75 @@ Se debe alterar el orden para que un extremo de transferencia coincida con el de
 		- Velocidades de hasta 20Gb/s en uso real
 		- Atenuación pequeña, distancias de hasta 60 km
 		- Varios tipos de conectores
+
 		![ConectoresFibra](./conectores-fibra.png)
+
+		- **Multimodo**
+			- Distancias sobre 2000 metros
+			- Uso relativamente poco costoso
+			- Transmisores LED
+
+		- **Monomodo**
+			- Núcleo 8 - 10 micras
+			- La fibra se comporta como una guía de ondas con una sola forma de propragación
+			- Ancho de banda muy elevado
+			- Distancia de más de 100km
+			- Transmisores láser
+			- Más cara que la fibra multimodo
+
+		- **Ventajas de la fibra óptica**
+			- Velocidades de transmisión elevadas
+			- Baja atenuación, permite grandes distancias sin repetidores
+			- Prácticamente no sufre interferencias electromagnéticas
+
+		- **Desventajas de la fibra óptica**
+			- Difícil de instalar, los cables se pueden doblar muy poco
+			- Los empalmes de fibra son caros y de una considerable complejidad
+			- Más cara que otros medios de transmisión
+
+		- **Comercialización**
+			- Tubo ajustado
+				- No puede usarse en exteriores
+				- Uno o dos hilos por cable
+				- Es la presentación típica en latiguillos
+				- Muy flexible
+				- No requiere *fan-out* o distribuidor
+			- Tubo holgado
+				- Contiene un gel que no permite la aparición de humedad
+				- Buena protección de la fibra
+				- Adaptado para uso externo
+				- Un gran número de fibras puede formar un cable no tan grueso
+				- Requiere *fan-out* o distribuidor
+
+		![FibraAjustadaHolgada](./fibra-ajustada-y-holgada.webp)
+
+		- **Conectorización**
+			- Empalmes mecánicos -> Corte cuidadoso en cada una de las fibras y se unen sus núcleos mediante una manga especial.<br>
+			Habrá que ajustar el alineamiento. Pérdidas en torno a el 10% (altas) 
+			- Empalme por fusión -> Se funden ambos núcleos de las fibras mediante un arco eléctrico para hacer una conexión sólida.<br>
+			Se producirá algo de atenuación, empalme ideal.
+
+- **No guiados**
+	- Transmiten datos por ondas electromagnéticas
+	- Requiere antenas tanto para lr recepción como para la transmisión
+	- La frecuencia de la onda determinará en gran medida su comportamiento al atravesar un obstáculo y su intensidad determinará el alcance máximo
+	- **Tipos**
+		- Infrarrojos
+		- Luz visible
+		- Microondas
+		- Redes wifi
+		- Bluetooth
+		- Por satélite
+
+### Tipos de transmisión
+- **Transmisión en serie** -> Los bits se envían uno detras de otro
+- **Transmisión en paralelo** -> Se envían los bits agrupados, un grupo detrás de otro
+
+### Modo de comunicación
+
+- **Simplex** -> Un dispositivo actúa siempre como emisor y el otro como receptor. La información sólo se puede enviar en un único sentido.
+- **Half-Duplex (SemiDuplex)** -> Permite el uso del canal para enviar datos en ambas direcciones, pero no de forma simultánea
+- **Full-Duplex** -> Permite enviar y recibir datos por el mismo canal de forma simultánea entre dos dispositivos 
 
 ### Recursos
 - [Presentacion](./medios-de-transmision.odp)
@@ -124,3 +195,5 @@ Se debe alterar el orden para que un extremo de transferencia coincida con el de
 - [Diferencias-CAT5-CAT6](https://www.youtube.com/watch?v=xrUvHGealZg)
 
 ---
+
+## Fibra óptica
