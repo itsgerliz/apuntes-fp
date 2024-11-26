@@ -200,6 +200,96 @@ Se debe alterar el orden para que un extremo de transferencia coincida con el de
 
 ## Fibra óptica
 
+- **Composición de la fibra**
+
+![ComposicionFibra](./composicion-fibra.png)
+
+- **Fibra multimodo** -> Varios haces de luz, la luz rebota en las paredes del núcleo y se confina gracias al revestimiento o *cladding*, 2km max.
+
+![FibraMultimodo](./fibra-multimodo.png)
+
+- **Fibra monomodo** -> Un solo haz de luz, que está muy bien confinado en el núcleo, 400km max.
+
+![FibraMonomodo](./fibra-monomodo.png)
+
+- **Fibra holgada vs ajustada**
+
+![FibraHolgadaAjustada](./holgada-ajustada.png)
+
+- **Fibra óptica plástica (*POF*)**
+	- Núcleo mayor (20-100 veces mayor)
+	- Más económica
+	- Mayor flexibilidad
+	- No tan rápida como la fibra tradicional, pero superior al cobre
+	- < 100 metros
+
+- **Atenuación** -> Pérdida de energía que sufre la señal al ser transmitida por el medio de transmisión
+
+![AtenuacionFibra](./atenuacion-fibra.jpg)
+
+- **Dispersión** -> Ocurre porque el pulso de luz viaja a diferentes velocidades (modos) por la fibra óptica.
+
+![DispersionFibra](./dispersion-fibra.png)
+
+- **Amplificador de fibra**
+	- **Restore:** Restaura la intensidad pero no suprime los defectos
+
+![AmplificadorDeFibra](./amplificador-fibra.png)
+
+- **Repetidor de fibra**
+	- **Restore:** Restaura la intensidad inicial
+	- **Reshape:** Corrige las distorsiones en la forma
+	- **Resynchronize:** Corrige las desincronizaciones de reloj
+
+![RepetidorDeFibra](./repetidor-fibra.png)
+
+- **Caja de empalme**
+
+![CajaDeEmpalme](./caja-empalme-fibra.png)
+
+- **Torpedo estanco**
+
+![TorpedoEstanco](./torpedo-estanco-fibra.png)
+
+- **Empalme mecánico**
+
+![EmpalmeMecánico](./empalme-mecanico-fibra.png)
+
+- **Empalme por fusión**
+
+![EmpalmeFusión](./empalme-fusion-fibra.png)
+
+- **Pérdidas causadas por empalmes**
+	- **Desalineación**
+
+	![Desalineacion1](./desalineacion-fibra-1.jpg)
+	![Desalineacion2](./desalineacion-fibra-2.jpg)
+
+	- **Espacios vacíos**
+
+	![EspaciosVacíos](./espacios-vacios-fibra.jpg)
+
+	- **Superficies rugosas**
+
+	![SuperficiesRugosas](./superficies-rugosas.jpg)
+
+	- **Diámetros distintos**
+
+	![DiametrosDistintos](./diametros-distintos.jpg)
+
+- **Conectores**
+
+![Conector1](./conector-fibra1.png)
+![Conector2](./conector-fibra2.png)
+
+- **Pulido de la fibra** -> Se hace tras el corte para evitar pérdidas en la transmisión
+
+![PulidoFibra](./pulidos-fibra.png)
+
+- **Impurezas en empalmes de fibra**
+
+![ImpurezasEmpalmesFibra](./impurezas-empalmes-fibra.png)
+
 ### Recursos
 - [MontajeConectorLC](https://www.youtube.com/watch?v=_loIfxQ-nYc)
 - [EmpalmeFusion](https://www.youtube.com/watch?v=qiKXaEcyHQE)
