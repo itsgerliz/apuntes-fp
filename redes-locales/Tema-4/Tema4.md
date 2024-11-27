@@ -6,7 +6,7 @@
 1. [Cables UTP](#cables-utp)
 2. [Métodos de transmisión](#métodos-de-transmisión)
 3. [Fibra óptica](#fibra-óptica)
-4. [Estándares Ethernet]()
+4. [Estándares Ethernet](#estándares-ethernet)
 5. [Cableado estructurado]()
 6. [Ejercicios prácticos]()
 
@@ -295,3 +295,31 @@ Se debe alterar el orden para que un extremo de transferencia coincida con el de
 - [EmpalmeFusion](https://www.youtube.com/watch?v=qiKXaEcyHQE)
 - [EmpalmeMecánico](https://www.youtube.com/watch?v=yovNGSz3uKc)
 - [ConectoresYCables](https://www.youtube.com/watch?v=YLH81B_f_o8)
+
+---
+
+## Estándares Ethernet
+
+- Estándar de red más extendido
+- Definido por el estándar IEEE 802.3
+- Topología lógica en bus
+- Usa CSMA/CD como método de acceso al medio
+
+- **Configuraciones**
+	- Ethernet (10 Mbps)
+		- 10Base2 (cable coaxial delgado)
+		- 10Base5 (cable coaxial grueso)
+		- 10BaseT (par trenzado)
+		- 10BaseF (fibra óptica)
+	- Fast Ethernet (100 Mbps)
+		- 100BaseT4
+		- 100BaseTX
+		- 100BaseFX
+	- Gigabit Ethernet (1 Gbps)
+		- 1000BaseT (par trenzado de cobre) (100m máx)
+		- 1000BaseX (fibra óptica)
+
+### Recursos
+- [PresentacionEstandaresEthernet](./ethernet.ppt)
+
+---
