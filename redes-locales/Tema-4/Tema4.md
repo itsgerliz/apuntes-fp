@@ -7,8 +7,8 @@
 2. [Métodos de transmisión](#métodos-de-transmisión)
 3. [Fibra óptica](#fibra-óptica)
 4. [Estándares Ethernet](#estándares-ethernet)
-5. [Cableado estructurado]()
-6. [Ejercicios prácticos]()
+5. [Cableado estructurado](#cableado-estructurado)
+6. [Ejercicios prácticos](#ejercicios)
 
 ---
 
@@ -320,6 +320,15 @@ Se debe alterar el orden para que un extremo de transferencia coincida con el de
 		- 1000BaseX (fibra óptica)
 
 ### Recursos
+
 - [PresentacionEstandaresEthernet](./ethernet.ppt)
 
 ---
+
+## Cableado estructurado
+
+### Recursos
+
+---
+
+## Ejercicios
